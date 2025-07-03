@@ -63,12 +63,13 @@ ros2_nav2_patrol/
 
 3. **Launch the simulation:**
    ```bash
-   ros2 launch your_package_name turtlebot3_house.launch.py
+   ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py 
+   ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True map:=/my_house.yaml
    ```
 
 4. **Run the navigation patrol script:**
    ```bash
-   ros2 run your_package_name nav2_test.py
+   ./nav2_test.py
    ```
 
 ---
