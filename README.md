@@ -1,6 +1,6 @@
 # 🤖 ROS 2 TurtleBot3 Patrol with Nav2 and SLAM
 
-This repository contains my final project from completing the [ROS 2 Navigation Stack (Nav2) with SLAM](https://www.roboticscourse.com/) course by Edouard Renard.
+This repository contains my final project from completing the [ROS 2 Navigation Stack (Nav2) with SLAM](https://www.udemy.com/course/ros2-nav2-stack/) course by Edouard Renard.
 
 The project simulates a **TurtleBot3 Waffle** robot navigating through a custom mapped house using ROS 2's Navigation Stack. It integrates **SLAM**, **URDF**, **waypoint patrol**, and simulation with **Gazebo**.
 
